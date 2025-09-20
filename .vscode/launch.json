@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:amen-browser}",
+      "name": "Debug AmenBrowserApp",
+      "program": "${workspaceFolder:amen-browser}/.build/debug/AmenBrowserApp",
+      "preLaunchTask": "swift: Build Debug AmenBrowserApp"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:amen-browser}",
+      "name": "Release AmenBrowserApp",
+      "program": "${workspaceFolder:amen-browser}/.build/release/AmenBrowserApp",
+      "preLaunchTask": "swift: Build Release AmenBrowserApp"
+    }
+  ]
+}
